@@ -1,0 +1,15 @@
+
+.button{
+  border:black;
+  color:white;
+  background-color:darkred;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor:pointer;
+  border-radius:12px;
+}
+.alert{
+  font-family: Calibri;
+  font-size:25px;
+  color:darkred;
+}

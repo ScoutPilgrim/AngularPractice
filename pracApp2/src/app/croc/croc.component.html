@@ -1,0 +1,12 @@
+
+<div style="text-align: center; margin-top: 300px">
+  <img src="../../assets/Pictures/psidedown_naisu.gif" height="226" width="300" [@photoState]="position" class="photo"/>
+</div>
+<br>
+<button (click)="changePosition('move')" class="button">Translate</button>
+<div class="divider"></div>
+<button (click)="changePosition('spin')" class="button2">Rotate</button>
+<div class="divider"></div>
+<button (click)="changePosition('enlarge')" class="button3">Scale</button>
+<div class="divider"></div>
+<button (click)="changePosition(null)" class="button4">Reset</button>

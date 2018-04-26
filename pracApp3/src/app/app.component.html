@@ -1,0 +1,39 @@
+
+<div class="ui grid">
+  <div class="ui sidebar vertical left menu inverted overlay labeled icon visible">
+    <div class="item logo">
+      <img src="../assets/Images/1515387776521.gif" width="100px" height="75px"/>
+    </div>
+    <a class=" item" routerLink="" id="home" (click)="showPan()">
+      <i class="home icon"></i>
+      Home
+    </a>
+    <div class="hidden" id="hidden">
+      <a class="item" id="pan"   onClick="$('.ui.modal').modal('show');">
+        <i class=" red folder open icon"></i>
+        Pandora's Folder
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="ui basic modal">
+  <div class="ui icon header">
+    <i class="bomb icon"></i>
+    Are you sure you want to open Pandora's Folder?
+  </div>
+  <div class="actions center">
+    <div class="ui red basic cancel inverted button" routerLink="">
+      <i class="remove icon"></i>
+      No
+    </div>
+    <div class="ui green ok inverted button" routerLink="pandora">
+      <i class="checkmark icon"></i>
+      Yes
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+
+

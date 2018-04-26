@@ -1,0 +1,43 @@
+.button{
+  padding: 12px 24px;
+  position:absolute;
+  display:inline-block;
+  top:75%;
+  left:700px;
+
+}
+.button2{
+  padding: 12px 24px;
+  position:absolute;
+  display:inline-block;
+  top:75%;
+  left:850px;
+
+}
+.button3{
+  padding: 12px 24px;
+  position:absolute;
+  display:inline-block;
+  top:75%;
+  left:1000px;
+
+}
+.button4{
+  padding: 12px 24px;
+  position:absolute;
+  display:inline-block;
+  top:75%;
+  left:1150px;
+
+}
+
+
+.photo{
+  position: center;
+}
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
