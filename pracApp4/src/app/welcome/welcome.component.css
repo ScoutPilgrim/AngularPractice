@@ -1,0 +1,48 @@
+#img {
+  border-radius: 50%;
+}
+#menu{
+  display: none;
+}
+
+.break{
+  height:115px;
+}
+
+.break1{
+  height:60px;
+}
+
+.break2{
+  height:60px;
+}
+
+
+.break3{
+  height:130px;
+}
+
+#img4{
+  border-radius:4%;
+}
+
+#img5{
+  border-radius:4%;
+}
+.image1{
+  border-radius:15%;
+  flex-shrink: 0;
+  width:1100px;
+  height:700px;
+}
+
+.ui.modal{
+  marginTop: 0px ;
+  marginLeft: auto;
+  marginRight: auto;
+  transition: all ease .5s;
+  border-radius: 4%;
+}
+.image{
+  border-radius: 4%;
+}
